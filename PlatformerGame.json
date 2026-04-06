@@ -369,6 +369,70 @@
         "name": "NewSprite16",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Death4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Death4",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -521,7 +585,7 @@
           "persistentUuid": "cf2b5c77-cff4-4934-b89a-8c98c72bcd2e",
           "width": 80,
           "x": 848,
-          "y": 288,
+          "y": 320,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -531,14 +595,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 48,
+          "height": 32,
           "keepRatio": true,
           "layer": "",
           "name": "Platform_Rock2",
           "persistentUuid": "a78f4cc1-a0f8-4187-b573-a216e7965f84",
           "width": 80,
           "x": 848,
-          "y": 304,
+          "y": 336,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -723,7 +787,7 @@
           "name": "Platform_Rock",
           "persistentUuid": "6f1b4da4-69d1-47c1-af27-04e7940e30c7",
           "width": 80,
-          "x": 768,
+          "x": 928,
           "y": 304,
           "zOrder": 4,
           "numberProperties": [],
@@ -734,13 +798,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 32,
+          "height": 48,
           "keepRatio": true,
           "layer": "",
           "name": "Platform_Rock2",
           "persistentUuid": "ac8805fe-ca37-4f5a-8b71-406498a6a066",
           "width": 80,
-          "x": 768,
+          "x": 928,
           "y": 320,
           "zOrder": 5,
           "numberProperties": [],
@@ -788,8 +852,8 @@
           "name": "Coin",
           "persistentUuid": "f114281b-5973-41ce-a464-90b6abe29e5b",
           "width": 0,
-          "x": 848,
-          "y": 272,
+          "x": 944,
+          "y": 288,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -823,6 +887,72 @@
           "x": 912,
           "y": 160,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform_Rock2",
+          "persistentUuid": "e072c1c1-9e60-4308-ba06-3ef2edf6624e",
+          "width": 80,
+          "x": 768,
+          "y": 320,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Platform_Rock",
+          "persistentUuid": "e8afa866-6186-48a7-941d-d3f87b7e0f6c",
+          "width": 80,
+          "x": 768,
+          "y": 304,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Coin",
+          "persistentUuid": "5328af7f-d230-4528-b1aa-bd53fa9249ad",
+          "width": 0,
+          "x": 800,
+          "y": 288,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "d1dc8892-76b3-49dd-b8ed-64841d2f436a",
+          "width": 0,
+          "x": 872,
+          "y": 272,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1054,6 +1184,163 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "NewSprite4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 9
+                          },
+                          {
+                            "x": 22,
+                            "y": 9
+                          },
+                          {
+                            "x": 22,
+                            "y": 28
+                          },
+                          {
+                            "x": 9,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Death",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.17,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Death",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 9
+                          },
+                          {
+                            "x": 22,
+                            "y": 9
+                          },
+                          {
+                            "x": 22,
+                            "y": 28
+                          },
+                          {
+                            "x": 9,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Death2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 9
+                          },
+                          {
+                            "x": 22,
+                            "y": 9
+                          },
+                          {
+                            "x": 22,
+                            "y": 28
+                          },
+                          {
+                            "x": 9,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Death3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 9
+                          },
+                          {
+                            "x": 22,
+                            "y": 9
+                          },
+                          {
+                            "x": 22,
+                            "y": 28
+                          },
+                          {
+                            "x": 9,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Death4",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1687,6 +1974,223 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Enemy",
+          "persistentUuid": "f40a6b0d-8adf-402e-95c8-668b09852a30",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "ignoreDefaultControls": true,
+              "isFolded": true,
+              "maxSpeed": 50,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": false,
+              "deceleration": 1500,
+              "gravity": 300,
+              "jumpSpeed": 200,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 300,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Walk",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.15,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 24,
+                          "y": 17
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 12
+                          },
+                          {
+                            "x": 19,
+                            "y": 12
+                          },
+                          {
+                            "x": 19,
+                            "y": 24
+                          },
+                          {
+                            "x": 5,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle2",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 24,
+                          "y": 17
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 12
+                          },
+                          {
+                            "x": 19,
+                            "y": 12
+                          },
+                          {
+                            "x": 19,
+                            "y": 24
+                          },
+                          {
+                            "x": 5,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle3",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 24,
+                          "y": 17
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 12
+                          },
+                          {
+                            "x": 19,
+                            "y": 12
+                          },
+                          {
+                            "x": 19,
+                            "y": 24
+                          },
+                          {
+                            "x": 5,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle4",
+                      "points": [
+                        {
+                          "name": "Checker",
+                          "x": 24,
+                          "y": 17
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 12
+                          },
+                          {
+                            "x": 19,
+                            "y": 12
+                          },
+                          {
+                            "x": 19,
+                            "y": 24
+                          },
+                          {
+                            "x": 5,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1694,6 +2198,9 @@
         "children": [
           {
             "objectName": "Player"
+          },
+          {
+            "objectName": "Enemy"
           },
           {
             "objectName": "Platform_Dirt"
@@ -1781,6 +2288,145 @@
               "parameters": [
                 "Coin",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "Enemy",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Platform_Rock",
+                    "Enemy.PointX(\"Checker\")",
+                    "Enemy.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "FlippableCapability::FlippableBehavior::FlippedX"
+              },
+              "parameters": [
+                "Enemy",
+                "Flippable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateRightKey"
+              },
+              "parameters": [
+                "Enemy",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Platform_Rock",
+                    "Enemy.PointX(\"Checker\")",
+                    "Enemy.PointY(\"Checker\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Enemy",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Player",
+                "Animation",
+                "=",
+                "\"Death\""
               ]
             }
           ]
